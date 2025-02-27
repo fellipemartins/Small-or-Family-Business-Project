@@ -1,0 +1,12 @@
+[project]
+name = "iramuteq_test_streamlit"
+version = "0.1.0"
+description = "Iramuteq abstract processor"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.64.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "rapidfuzz>=3.12.1",
+    "streamlit>=1.42.2",
+]
